@@ -1,0 +1,11 @@
+{
+  "name": "ficha-microcredencial",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Asistente web por compuertas para diseñar fichas de microcredenciales (14 campos).",
+  "scripts": {
+    "test": "node tests/test1.js && node tests/test2.js && node tests/test3.js && node tests/test4.js",
+    "serve": "npx --yes serve ."
+  },
+  "devDependencies": { "docx": "8.5.0", "jsdom": "^24.1.3", "jszip": "^3.10.1", "mammoth": "1.8.0" }
+}
