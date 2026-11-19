@@ -130,6 +130,9 @@ table.tbl th, table.tbl td { text-align: left; padding: 8px 10px; border-bottom:
 .modal .btns { display: flex; justify-content: flex-end; gap: 10px; }
 .toast { position: fixed; bottom: 18px; left: 50%; transform: translateX(-50%); background: var(--ink); color: var(--bg); padding: 9px 16px; border-radius: 8px; z-index: 30; max-width: 90vw; }
 .muted { color: var(--muted); }
+.site-footer { max-width: 1180px; margin: 0 auto; padding: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; line-height: 1.6; }
+.site-footer p { margin: 0; }
+.site-footer .proto { font-weight: 600; color: var(--ink); }
 @media (max-width: 820px) {
   .layout { grid-template-columns: 1fr; padding: 16px; }
   .steps { display: none; }
@@ -151,6 +154,11 @@ table.tbl th, table.tbl td { text-align: left; padding: 8px 10px; border-bottom:
   <nav class="steps" id="steps" aria-label="Pasos de la ficha"></nav>
   <main id="main" tabindex="-1"></main>
 </div>
+<footer class="site-footer">
+  <p>Creado por Mauricio Morales Saldarriaga</p>
+  <p>Tomado de: Guía de elaboración de microcredenciales de la UNESCO - IESALC</p>
+  <p class="proto">Este es un prototipo. No es una versión final</p>
+</footer>
 <div id="layer"></div>
 
 <script src="https://cdn.jsdelivr.net/npm/docx@8.5.0/build/index.umd.js"></script>
